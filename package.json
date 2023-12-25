@@ -1,24 +1,18 @@
 {
   "name": "ux-portfolio-2024",
-  "version": "1.0.0",
-  "description": "My UX  Showcase for 2024",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/uxsergey/ux-portfolio-2024.git"
-  },
-  "keywords": [
-    "Nextjs",
-    "Prortfolio",
-    "Storybook"
-  ],
-  "author": "Sergey UX",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/uxsergey/ux-portfolio-2024/issues"
-  },
-  "homepage": "https://github.com/uxsergey/ux-portfolio-2024#readme"
+  "dependencies": {
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
